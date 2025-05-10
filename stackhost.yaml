@@ -9,7 +9,7 @@ services:
     environment:
       API_ID: 25144375
       API_HASH: 70ff034329e28259cd85a988a6fa395e
-      BOT_TOKEN: 7806418506:AAFNHB0-0v-DHeT3eg009BIzCJBvBKKe5fw
+      BOT_TOKEN: 8059215371:AAHrnBRl6KC1fwfWC9IVILsYC7M0_iEGCNw
     command: python telegraph_bot.py
     restart: always
     
