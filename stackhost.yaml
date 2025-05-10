@@ -1,15 +1,17 @@
-# stackhost.yaml
+user:
+  name: ishikki
+  github: ishikki-akabane
 
-name: Telegraph Bot
+language: "python"
+python_version: "3.13"
 
-services:
-  telegraph-bot:
-    build:
-      dockerfile: Dockerfile
-    environment:
-      API_ID: 25144375
-      API_HASH: 70ff034329e28259cd85a988a6fa395e
-      BOT_TOKEN: 8059215371:AAHrnBRl6KC1fwfWC9IVILsYC7M0_iEGCNw
-    command: python telegraph_bot.py
-    restart: always
-    
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  package:
+    - "nano inxi"
+  start:
+    - "python3 bot.py"
+
+env:
+  - "ENVIRONMENT=production"
