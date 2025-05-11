@@ -460,7 +460,7 @@ class ClassicGame:
             # Timer ran out
             self.accepting_answers = False
             await self.send_message(
-                f"{self.players_in_game[0].mention} ran out of time! They have been eliminated.",
+                f"{self.players_in_game[0].mention} ran out of time! Ja be bkl tujhe eliminate kiya , pahle khelna sikh lode.",
                 parse_mode=types.ParseMode.HTML
             )
             del self.players_in_game[0]
@@ -628,7 +628,7 @@ class ClassicGame:
             GlobalState.games.pop(self.group_id, None)
             try:
                 await self.send_message(
-                    f"Game ended due to the following error:\n`{e.__class__.__name__}: {e}`.\n"
+                    f"Game ended due to the following error , kuch madarchod logo ke spam ki vajah se ye bot ded hua h ,aaj raat unki maiya chodege , behen ke laude spammers.:\n`{e.__class__.__name__}: {e}`.\n"
                     "My owner will be notified."
                 )
             except:
