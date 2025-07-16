@@ -1,12 +1,12 @@
 # On9 Word Chain Bot
-![On9 Word Chain Bot logo](https://i.imgur.com/B4hjMC5.jpg)
+![On9 Word Chain Bot logo](on9.jpg)
 
-(Epic icon by [@AdriTheDreamer](https://github.com/AdriTheDreamer)) 
+(Epic icon by [@Vivek_X_singhaniya](vivek_X.jpg)) 
 
 On9 Word Chain Bot hosts games of word chain in Telegram groups.
 
 ### Telegram Links
-- [On9 Word Chain Bot](https://t.me/on9wordchainbot) (Live Version)
+- [On9 Word Chain Bot](http://t.me/On9_wordchain_bot) (Live Version)
 - [Official Group](https://t.me/+T30aTNo-2Xx2kc52)
 - [Word Additions Channel](https://t.me/on9wcwa)
 
