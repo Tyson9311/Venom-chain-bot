@@ -1,5 +1,6 @@
 # On9 Word Chain Bot
-![On9 Word Chain Bot logo](on9.jpg)
+![On9 Word Chain Bot logo]
+(on9.jpg)
 
 (Epic icon by [@Vivek_X_singhaniya](vivek_X.jpg)) 
 
