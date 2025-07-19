@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  venom-bot:
+    build: .
+    container_name: venom-bot
+    env_file:
+      - .env
+    restart: unless-stopped
